@@ -1,4 +1,4 @@
-var haslo = "żelkobanany";
+var haslo = "stay determined";
 haslo=haslo.toUpperCase();
 
 var dlugosc = haslo.length;
@@ -7,6 +7,7 @@ var haslo1="";
 var ile_skuch =0;
 var ilosc_minut = 5;
 var ilosc_sekund =0;
+var sound = new Audio("Undertale.mp3");
 for (i=0;dlugosc>i;i++) 
 {
     if (haslo.charAt(i)==" ") haslo1=haslo1+" ";
@@ -99,6 +100,7 @@ function sprawdz(nr)
         wypisz_haslo();
     }
     else {
+        sound.play();
         var element = "lit" +nr;
         document.getElementById(element).style.background="#330000";
         document.getElementById(element).style.color = "#C00000";
