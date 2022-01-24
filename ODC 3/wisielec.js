@@ -1,4 +1,4 @@
-var haslo = "dziki zgon";
+var haslo = "żelkobanany";
 haslo=haslo.toUpperCase();
 
 var dlugosc = haslo.length;
