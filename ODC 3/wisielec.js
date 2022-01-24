@@ -1,4 +1,4 @@
-var haslo = "tiihy";
+var haslo = "dziki zgon";
 haslo=haslo.toUpperCase();
 
 var dlugosc = haslo.length;
